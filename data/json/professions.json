@@ -1798,8 +1798,7 @@
     "items": {
       "both": { "items": [ "pocketwatch", "knife_steak" ], "entries": [ { "group": "charged_smart_phone" } ] },
       "male": {
-        "items": [ "briefs", "socks", "dress_shoes", "tux", "glasses_monocle", "collarpin" ],
-        "entries": [ { "item": "pants", "variant": "pants_black" } ]
+        "items": [ "briefs", "socks", "dress_shoes", "tux", "glasses_monocle", "collarpin" ]
       },
       "female": [ "panties", "bra", "stockings", "garter_belt", "dress_shoes", "maid_dress", "maid_hat", "corset_waist", "fc_hairpin" ]
     }
@@ -3942,7 +3941,7 @@
         "items": [ "socks", "dress_shoes", "holybook_bible1" ],
         "entries": [ { "group": "charged_smart_phone" }, { "item": "holy_symbol", "variant": "general_necklace" } ]
       },
-      "male": { "items": [ "briefs", "dress_shirt", "suit" ], "entries": [ { "item": "pants", "variant": "pants_black" } ] },
+      "male": { "items": [ "briefs", "suit" ],
       "female": [ "dress", "purse", "bra", "panties" ]
     }
   },
@@ -3958,7 +3957,7 @@
         "items": [ "socks", "dress_shoes", "holybook_bible4" ],
         "entries": [ { "group": "charged_smart_phone" }, { "item": "holy_symbol", "variant": "catholic_necklace" } ]
       },
-      "male": [ "pants", "longshirt", "cassock", "cape_catholic", "zucchetto", "briefs" ],
+      "male": [ "longshirt", "cassock", "cape_catholic", "zucchetto", "briefs" ], "entries": [ { "item": "pants", "variant": "pants_black" } ] },
       "female": [ "nun_wimple", "nun_habit", "dress_shirt", "purse", "bra", "panties" ]
     }
   },
