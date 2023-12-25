@@ -492,6 +492,27 @@
     "melee_damage": { "cut": 12 }
   },
   {
+    "id": "santa_knife",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "candy cane knife", "str_pl": "candy cane knives" },
+    "description": "A novelty but sharp knife meant to be used as decoration, as it is shaped like a candy cane.  Given the circumstances, this is better as a weapon than a decorative item.",
+    "weight": "121 g",
+    "volume": "100 ml",
+    "longest_side": "20 cm",
+    "price": 4000,
+    "price_postapoc": 350,
+    "to_hit": { "grip": "weapon", "length": "hand", "surface": "point", "balance": "good" },
+    "material": [ "steel", "plastic" ],
+    "repairs_with": [ "steel" ],
+    "symbol": "/",
+    "color": "red",
+    "qualities": [ [ "CUT", 2 ], [ "CUT_FINE", -2 ], [ "BUTCHER", 3 ] ],
+    "flags": [ "SHEATH_KNIFE", "ALLOWS_BODY_BLOCK", "CONDUCTIVE", "DURABLE_MELEE" ],
+    "weapon_category": [ "KNIVES" ],
+    "melee_damage": { "cut": 12 }
+  },
+  {
     "id": "knife_KABAR",
     "type": "TOOL",
     "category": "weapons",
