@@ -141,6 +141,23 @@
     "flags": [ "COLLAPSE_CONTENTS" ]
   },
   {
+    "id": "bag_santa",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "Santa's toy bag" },
+    "looks_like": "bag_canvas",
+    "description": "A large, red canvas bag trimmed with white faux fur.  Meant to be carried by bearded men on Christmas.",
+    "weight": "1500 g",
+    "volume": "3 L",
+    "price": 0,
+    "price_postapoc": 10,
+    "to_hit": -3,
+    "material": [ "canvas" ],
+    "pocket_data": [ { "pocket_type": "CONTAINER", "max_contains_volume": "170 L", "max_contains_weight": "200 kg", "moves": 300 } ],
+    "symbol": ")",
+    "color": "red"
+  },
+  {
     "id": "bag_canvas",
     "type": "GENERIC",
     "category": "container",
