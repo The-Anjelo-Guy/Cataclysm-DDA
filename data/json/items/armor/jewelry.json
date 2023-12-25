@@ -2008,6 +2008,14 @@
     "description": "A star-shaped plastic badge.  \"Foodkid\" is printed on it in bold letters.  This badge marks its wearer as Foodperson's trusty sidekick, and comes included with every kid's meal at Foodplace."
   },
   {
+    "id": "badge_santa",
+    "copy-from": "badge_abstract",
+    "type": "ARMOR",
+    "name": { "str": "Santa badge" },
+    "description": "A red and white badge that serves as a symbol of identification, authority and recognition, signifying the person’s role as either Santa Claus or Mrs. Claus and their commitment to spreading joy and Christmas Spirit.",
+    "ascii_picture": "badge_deputy"
+  },
+  {
     "id": "fur_cat_ears",
     "type": "ARMOR",
     "name": { "str": "pair of fuzzy cat ears", "str_pl": "pairs of fuzzy cat ears" },
