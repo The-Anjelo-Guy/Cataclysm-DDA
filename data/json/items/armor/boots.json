@@ -2604,6 +2604,24 @@
     "extend": { "flags": [ "UNDERSIZE" ] }
   },
   {
+    "id": "santa_socks",
+    "type": "ARMOR",
+    "name": { "str": "pair of Santa socks", "str_pl": "pairs of Santa socks" },
+    "description": "A pair of comfortable red socks lightly trimmed with white faux fur, almost identical to the socks you'd hang in your fireplace during Christmas, but these ones are made to be wore by bearded men or gentle ladies on Christmas.",
+    "weight": "32 g",
+    "volume": "250 ml",
+    "price": 200,
+    "price_postapoc": 50,
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "looks_like": "socks_wool",
+    "color": "red",
+    "warmth": 5,
+    "material_thickness": 0.2,
+    "flags": [ "VARSIZE", "SKINTIGHT" ],
+    "armor": [ { "coverage": 100, "covers": [ "foot_l", "foot_r" ] } ]
+  },
+  {
     "id": "socks",
     "type": "ARMOR",
     "name": { "str": "pair of socks", "str_pl": "pairs of socks" },
