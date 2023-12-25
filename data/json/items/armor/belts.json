@@ -228,6 +228,57 @@
     ]
   },
   {
+    "id": "suspenders",
+    "type": "ARMOR",
+    "name": { "str": "suspenders" },
+    "description": "A pair of black nylon suspenders to hold your pants.",
+    "weight": "250 g",
+    "volume": "600 ml",
+    "price": 2000,
+    "price_postapoc": 100,
+    "repairs_like": "nylon",
+    "material": [ { "type": "nylon", "portion": 75 }, { "type": "steel", "portion": 25 } ],
+    "symbol": "H",
+    "color": "black",
+    "material_thickness": 2,
+    "flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY" ],
+    "armor": [
+      {
+        "covers": [ "torso" ],
+        "coverage": 25,
+        "material": [
+          { "type": "nylon", "covered_by_mat": 100, "thickness": 2 },
+          { "type": "steel", "covered_by_mat": 10, "thickness": 0.5 }
+        ]
+      }
+    ]
+  {
+    "id": "santa_suspenders",
+    "type": "ARMOR",
+    "name": { "str": "Santa suspenders" },
+    "description": "A pair of red nylon suspenders with intricate Christmas designs.  Favoured by the older bearded men on winter.",
+    "weight": "250 g",
+    "volume": "600 ml",
+    "price": 2000,
+    "price_postapoc": 100,
+    "repairs_like": "nylon",
+    "material": [ { "type": "nylon", "portion": 75 }, { "type": "steel", "portion": 25 } ],
+    "symbol": "H",
+    "color": "red",
+    "material_thickness": 2,
+    "flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY" ],
+    "armor": [
+      {
+        "covers": [ "torso" ],
+        "coverage": 25,
+        "material": [
+          { "type": "nylon", "covered_by_mat": 100, "thickness": 2 },
+          { "type": "steel", "covered_by_mat": 10, "thickness": 0.5 }
+        ]
+      }
+    ]
+  },
+  {
     "id": "obi_gi",
     "type": "ARMOR",
     "name": { "str": "obi" },
