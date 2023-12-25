@@ -1266,6 +1266,13 @@
         "description": "A necklace made of a fine gold chain with a plain cross symbol as a pendant.  It is a symbol of Christian faith, no matter the denomination.",
         "color": "yellow",
         "weight": 75
+        },
+      {
+        "id": "rasta_necklace",
+        "name": { "str": "Rastafari necklace" },
+        "description": "A necklace made of a fine gold chain with the Rastafarian Lion of Judah as a pendant, alongside beads coloured with the Rastafarian pattern.  It is a symbol of the Rastafarian faith.",
+        "color": "yellow",
+        "weight": 75
       },
       {
         "id": "episcopal_necklace",
@@ -1382,7 +1389,7 @@
       {
         "id": "christian_necklace",
         "name": { "str": "Ichthys necklace" },
-        "description": "A necklace made of a fine gold chain with the Ichthys symbol as a pendant.  It is a symbol of many Christian faith, and also the symbol of adherents of the Primitivist Christianism, a denomination that believed that Christianism had been too separated from its original meaning and they should return to the initial, pure form of Christianism.  In general, it is a representation of a fish used in ancient times as a pagan fertility talisman or amulet or as a Christian symbol for the Greek word ichthys interpreted as an acrostic in which the Greek letters are the initials of the words 'I esous Christos th eou hy ios s oter', meaning 'Jesus Christ Son of God Savior'.",
+        "description": "A necklace made of a fine gold chain with the Ichthys symbol as a pendant.  It is a symbol of many Christian faiths, and also the symbol of adherents of the Primitivist Christianism, a denomination that believed that Christianism had been too separated from its original meaning and they should return to the initial, pure form of Christianism.  In general, it is a representation of a fish used in ancient times as a pagan fertility talisman or amulet or as a Christian symbol for the Greek word ichthys interpreted as an acrostic in which the Greek letters are the initials of the words 'I esous Christos th eou hy ios s oter', meaning 'Jesus Christ Son of God Savior'.",
         "color": "yellow",
         "weight": 15
       },
@@ -1878,6 +1885,42 @@
     "color": "dark_gray",
     "sided": true,
     "flags": [ "WATCH", "ALARMCLOCK", "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "WATER_FRIENDLY", "OVERSIZE" ],
+    "armor": [ { "coverage": 50, "covers": [ "hand_l", "hand_r" ], "specifically_covers": [ "hand_wrist_l", "hand_wrist_r" ] } ]
+  },
+  {
+    "id": "santa_wristwatch",
+    "type": "ARMOR",
+    "name": { "str": "Christmas wrist watch", "str_pl": "Christmas wrist watches" },
+    "description": "A festive wristwatch on a red leather band, with decorations and ornaments in white and green.  Tells the time, has an alarm clock feature and depicts snowmen alongside the edge.",
+    "weight": "100 g",
+    "volume": "100 ml",
+    "price": 5000,
+    "price_postapoc": 100,
+    "to_hit": -1,
+    "material": [ "leather", "steel" ],
+    "ascii_picture": "wristwatch",
+    "symbol": "[",
+    "color": "red",
+    "sided": true,
+    "flags": [ "WATCH", "ALARMCLOCK", "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "WATER_FRIENDLY", "OVERSIZE" ],
+    "armor": [ { "coverage": 50, "covers": [ "hand_l", "hand_r" ], "specifically_covers": [ "hand_wrist_l", "hand_wrist_r" ] } ]
+  },
+  {
+    "id": "fancy_santa_wristwatch",
+    "type": "ARMOR",
+    "name": { "str": "Luxury Christmas wrist watch", "str_pl": "Luxury Christmas wrist watches" },
+    "description": "A high-quality wristwatch on a red leather band, with decorations and ornaments in white and green.  Tells the time, has an alarm clock feature and is made of red-plated gold, for the King of North Pole.",
+    "weight": "100 g",
+    "volume": "100 ml",
+    "price": 5000,
+    "price_postapoc": 100,
+    "to_hit": -1,
+    "material": [ "leather", "gold" ],
+    "ascii_picture": "wristwatch",
+    "symbol": "[",
+    "color": "red",
+    "sided": true,
+    "flags": [ "FANCY", "WATCH", "ALARMCLOCK", "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "WATER_FRIENDLY", "OVERSIZE" ],
     "armor": [ { "coverage": 50, "covers": [ "hand_l", "hand_r" ], "specifically_covers": [ "hand_wrist_l", "hand_wrist_r" ] } ]
   },
   {
