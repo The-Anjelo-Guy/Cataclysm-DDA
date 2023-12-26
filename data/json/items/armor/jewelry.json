@@ -40,6 +40,21 @@
     "flags": [ "NO_WEAR_EFFECT" ]
   },
   {
+    "id": "santa_ear",
+    "type": "ARMOR",
+    "name": { "str": "Santa earrings", "str_pl": "Santa earrings" },
+    "description": "A simple pair of lightweight, hypoallergenic earrings made of string and a tiny plastic candycane.  It is a trend at the North Pole.",
+    "weight": "600 mg",
+    "volume": "1 ml",
+    "price": 100,
+    "price_postapoc": 10,
+    "material": [ "plastic" ],
+    "symbol": "[",
+    "looks_like": "gold_ear",
+    "color": "red",
+    "flags": [ "NO_WEAR_EFFECT" ]
+  },
+  {
     "id": "bead_necklace",
     "type": "ARMOR",
     "name": { "str": "beaded necklace" },
@@ -59,7 +74,7 @@
     "id": "santa_necklace",
     "type": "ARMOR",
     "name": { "str": "Christmas holly necklace" },
-    "description": "A simple, festive necklace made of string and a bunch Christmas holly.  It will surely keep the Christmas Spirit alive, even in the worst circumstances.",
+    "description": "A simple, festive necklace made of string and a bunch of Christmas holly.  It will surely keep the Christmas Spirit alive, even in the worst circumstances.",
     "looks_like": "silver_necklace",
     "weight": "10 g",
     "volume": "20 ml",
