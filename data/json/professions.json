@@ -2604,6 +2604,28 @@
   },
   {
     "type": "profession",
+    "id": "santa",
+    "name": { "male": "Mall Santa", "female": "Mall Mrs. Claus" },
+    "description": "Everything was set for Christmas, you where just waiting for the call.  The children's happiness and joy where lost due to the Cataclysm, but you are decided to keep the Christmas Spirit alive, no matter what.  At least, all that time making toys and carrying them will be of use.",
+    "points": 2,
+    "skills": [ { "level": 3, "name": "speech", "level": 2, "name": "swimming", "level": 1, "name": "fabrication", "level": 1, "name": "traps" } ],
+    "items": {
+      "both": {
+        "items": [ "santa_hat", "santa_necklace", "santa_wristwatch", "badge_santa", "bag_santa" ]
+        "entries": [ 
+          { "group": "charged_smart_phone" },
+          { "item": "candycane", "count": 10 },
+          { "item": "chocolate", "count": 5 },
+          { "item": "teddy_bear", "count": 5 },
+          { "item": "toy_figurine", "count": 5 }
+        ],
+      },
+      "male": [ "santa_undershirt", "santa_jacket", "santa_belt", "santa_pants", "santa_briefs", "santa_socks", "santa_boots", "santa_staff", "santa_beard" ],
+      "female": [ "santa_ear", "santa_bra", "santa_dress", "santa_stocklings", "santa_panties", "santa_shoes", "santa_knife" ]
+    }
+  },
+  {
+    "type": "profession",
     "id": "modern_archer",
     "name": "Modern Archer",
     "description": "A great fan of the archers of old, but at the same time a follower of the latest trends in archery.  You always tried to keep up with the times, acquiring a takedown bow as well as several accessories to complement it.  You can only hope all the training you did with them can help you survive in this trying times.",
