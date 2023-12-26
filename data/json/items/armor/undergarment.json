@@ -349,6 +349,16 @@
     "extend": { "flags": [ "UNDERSIZE" ] }
   },
   {
+    "id": "santa_briefs",
+    "type": "ARMOR",
+    "name": { "str_sp": "Santa boxer briefs" },
+    "description": "Comfortable red boxer briefs lightly trimmed with white faux fur.  The underclothing suitable for the King of North Pole.",
+    "weight": "50 g",
+    "volume": "350 ml",
+    "copy-from": "boxer_briefs",
+    "extend": { "flags": [ "VARSIZE", "SKINTIGHT" ] }
+  },
+  {
     "id": "boxer_shorts",
     "type": "ARMOR",
     "name": { "str_sp": "boxer shorts" },
@@ -402,7 +412,17 @@
     "name": { "str_sp": "XS boxer shorts" },
     "description": "Men's XS boxer shorts.  For the very short.  More fashionable than briefs and just as comfortable.",
     "proportional": { "weight": 0.75, "volume": 0.75, "price": 0.5 },
-    "extend": { "flags": [ "UNDERSIZE" ] }
+    "extend": { "flags": [ "VARSIZE", "SKINTIGHT" ] }
+  },
+  {
+    "id": "santa_boxers",
+    "type": "ARMOR",
+    "name": { "str_sp": "Santa boxers" },
+    "description": "Very comfortable red boxers lightly trimmed with white faux fur.  The underclothing suitable for the King of North Pole.",
+    "weight": "42 g",
+    "volume": "250 ml",
+    "copy-from": "boxer_shorts",
+    "extend": { "flags": [ "OVERSIZE" ] }
   },
   {
     "id": "boy_shorts",
@@ -461,6 +481,16 @@
     "extend": { "flags": [ "UNDERSIZE" ] }
   },
   {
+    "id": "santa_boyshorts",
+    "type": "ARMOR",
+    "name": { "str_sp": "Santa boyshorts" },
+    "description": "Comfortable red boyshorts lightly trimmed with white faux fur.  The underclothing suitable for the Queen of North Pole.",
+    "weight": "42 g",
+    "volume": "250 ml",
+    "copy-from": "boy_shorts",
+    "extend": { "flags": [ "VARSIZE", "SKINTIGHT" ] }
+  },
+  {
     "id": "bra",
     "type": "ARMOR",
     "name": { "str": "bra" },
@@ -496,6 +526,16 @@
     "description": "A simple bra.  For protecting those bits you don't want zombies to look at, made for smaller mutants.",
     "proportional": { "weight": 0.75, "volume": 0.75, "price": 0.5 },
     "extend": { "flags": [ "UNDERSIZE" ] }
+  },
+  {
+    "id": "santa_bra",
+    "type": "ARMOR",
+    "name": { "str_sp": "Santa bra" },
+    "description": "A comfortable red bra lightly trimmed with white faux fur.  The underclothing suitable for the Queen of North Pole.",
+    "weight": "32 g",
+    "volume": "250 ml",
+    "copy-from": "bra",
+    "extend": { "flags": [ "VARSIZE", "SKINTIGHT" ] }
   },
   {
     "id": "briefs",
@@ -893,6 +933,16 @@
     "armor": [ { "coverage": 75, "covers": [ "leg_l", "leg_r" ], "specifically_covers": [ "leg_hip_l", "leg_hip_r" ] } ]
   },
   {
+    "id": "santa_panties",
+    "type": "ARMOR",
+    "name": { "str_sp": "Santa panties" },
+    "description": "Comfortable red panties lightly trimmed with white faux fur.  The underclothing suitable for the Queen of North Pole.",
+    "weight": "32 g",
+    "volume": "250 ml",
+    "copy-from": "panties",
+    "extend": { "flags": [ "VARSIZE", "SKINTIGHT" ] }
+  },
+  {
     "id": "thermal_shirt",
     "type": "ARMOR",
     "name": { "str": "thermal shirt" },
@@ -1068,6 +1118,16 @@
     "armor": [
       { "covers": [ "torso" ], "specifically_covers": [ "torso_lower" ], "coverage": 100 },
       { "covers": [ "torso" ], "specifically_covers": [ "torso_upper" ], "coverage": 90 }
+  },
+  {
+    "id": "santa_undershirt",
+    "type": "ARMOR",
+    "name": { "str_sp": "Santa undershirt" },
+    "description": "A red undershirt with a simple but neat Christmas pattern on it.  The underclothing suitable for the King of North Pole.",
+    "weight": "42 g",
+    "volume": "250 ml",
+    "copy-from": "undershirt",
+    "extend": { "flags": [ "VARSIZE", "SKINTIGHT" ] }
     ]
   },
   {
