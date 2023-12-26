@@ -3279,6 +3279,16 @@
     ]
   },
   {
+    "id": "santa_stockings",
+    "type": "ARMOR",
+    "name": { "str_sp": "pair of Santa stockings" },
+    "description": "A pair of delicate red and green stockings with other Christmas adornments printed on it.",
+    "weight": "90 g",
+    "volume": "250 ml",
+    "copy-from": "stockings",
+    "extend": { "flags": [ "VARSIZE", "SKINTIGHT" ] }
+  },
+  {
     "id": "tabi_dress",
     "type": "ARMOR",
     "name": { "str": "pair of tabi", "str_pl": "pairs of tabi" },
