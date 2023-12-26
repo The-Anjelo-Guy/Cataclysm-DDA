@@ -2611,7 +2611,7 @@
     "skills": [ { "level": 3, "name": "speech", "level": 2, "name": "swimming", "level": 1, "name": "fabrication", "level": 1, "name": "traps" } ],
     "items": {
       "both": {
-        "items": [ "santa_hat", "santa_necklace", "santa_wristwatch", "badge_santa", "bag_santa" ]
+        "items": [ "santa_hat", "santa_necklace", "santa_wristwatch", "badge_santa", "bag_santa" ],
         "entries": [ 
           { "group": "charged_smart_phone" },
           { "item": "candycane", "count": 10 },
