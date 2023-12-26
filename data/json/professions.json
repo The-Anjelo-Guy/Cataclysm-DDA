@@ -2621,7 +2621,7 @@
         ],
       },
       "male": [ "santa_undershirt", "santa_jacket", "santa_belt", "santa_pants", "santa_briefs", "santa_socks", "santa_boots", "santa_staff", "santa_beard" ],
-      "female": [ "santa_ear", "santa_bra", "santa_dress", "santa_stocklings", "santa_panties", "santa_shoes", "santa_knife" ]
+      "female": [ "santa_ear", "santa_bra", "santa_dress", "santa_stockings", "santa_panties", "santa_shoes", "santa_knife" ]
     }
   },
   {
