@@ -996,6 +996,13 @@
     ]
   },
   {
+    "id": "beanie_hat",
+    "type": "ARMOR",
+    "name": { "str": "cotton hat" },
+    "description": "A comfortable, snug-fitting beanie hat.  Quite warm.",
+    "copy-from" "hat_cotton"
+  },
+  {
     "id": "hat_fur",
     "type": "ARMOR",
     "name": { "str": "fur hat" },
@@ -1021,6 +1028,13 @@
     ]
   },
   {
+    "id": "ushanka",
+    "type": "ARMOR",
+    "name": { "str": "ushanka" },
+    "description": "A warm and comfortable hat from Russia, made of real fur.  It has earflaps to protect your ears against the cold.",
+    "copy-from" "hat_fur"
+  },
+  {
     "id": "hat_faux_fur",
     "type": "ARMOR",
     "copy-from": "hat_fur",
@@ -1029,6 +1043,13 @@
     "description": "A stylish hat made of faux fur.  Like real fur, but without the suffering, if the tag is to be believed.  Very warm.",
     "material": [ "faux_fur", "cotton" ],
     "warmth": 50
+  },
+  {
+    "id": "fushanka",
+    "type": "ARMOR",
+    "name": { "str": "ushanka" },
+    "description": "A warm and comfortable hat from Russia, made of faux fur.  It has earflaps to protect your ears against the cold.",
+    "copy-from" "hat_faux_fur"
   },
   {
     "id": "hat_hard",
