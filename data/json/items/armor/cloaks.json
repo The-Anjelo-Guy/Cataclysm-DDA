@@ -1507,7 +1507,7 @@
       {
         "id": "brazilian_empire_flag",
         "name": { "str": "Imperial Brazilian flag" },
-        "description": "A flag with a green background with a white diamond in the centre bearing the arms of the Brazilian Emperor: a green shield bearing an armilliary sphere surrounded by a ring of stars, an Imperial crown above, the whole surrounded by branches of coffee and tobacco tied with a blue ribbon.",
+        "description": "A flag with a green background and a white diamond in the centre bearing the arms of the Brazilian Emperor: a green shield bearing an armilliary sphere surrounded by a ring of stars, an Imperial crown above, the whole surrounded by branches of coffee and tobacco tied with a blue ribbon.",
         "weight": 10,
         "append": true
       }
